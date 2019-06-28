@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/video-js.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/video.js"></script>
+
+    <title>Eindopdracht</title>
+
+</head>
+
+<body>
+    <header>
+        <a href="#" id="logo"></a>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">Over ons</a></li>
+                <li><a href="#">Lesmateriaal</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        
+        <div id="hero">
+            <div id="herocontainer">
+                <div id="intro">
+                    <h2>Van beginner naar expert</h2>
+                    <h2>Het lesmateriaal brengt je verder</h2>
+                    <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="container">
+
+            <p id="playlist">Playlist</p>
+
+            <div id="accordion">
+
+                <div class="container2">
+                    <h3> 
+                        <button class="arrow"></button> 
+                        Algemene introductie
+                        <button class="done2"></button>
+                        <button id="roodintro"></button> 
+                    </h3>
+
+                    <div class="videoContainer">
+                        <p class="videoTitle">Algemene introductie</p>
+                        <video class="video-js" id="video1" data-setup='{"fluid": true}' mute>
+                            <source src="/Video/vid.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                        </video>
+                        <button class="toggle"></button>
+                        <button class="rewind"></button>
+                        <button class="done"></button>
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <h3>
+                        <button class="arrow"></button> 
+                        Workshop 1: Kleuren met code
+                        <button class="done2"></button>
+                        <button class="workshop"></button> 
+                        <button class="downloads"></button> 
+                    </h3>
+
+                    <div class="videoContainer">
+                        <p class="videoTitle">Workshop 1: Kleuren met code</p>
+                        <video class="video-js" id="video2" data-setup='{"fluid": true}' mute>
+                            <source src="/Video/vid.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                        </video>
+                        <button class="toggle"></button>
+                        <button class="rewind"></button>
+                        <button class="done"></button>
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <h3>
+                        <button class="arrow"></button>
+                        Workshop 2: Vormen maken
+                        <button class="done2"></button>
+                        <button class="workshop"></button> 
+                    </h3>
+
+                    <div class="videoContainer">
+                        <p class="videoTitle">Workshop 2: Vormen maken</p>
+                        <video class="video-js" id="video3" data-setup='{"fluid": true}' mute>
+                            <source src="/Video/vid.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                        </video>
+                        <button class="toggle"></button>
+                        <button class="rewind"></button>
+                        <button class="done"></button>
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <h3>
+                        <button class="arrow"></button>
+                        Workshop 3: Beweging
+                        <button class="done2"></button>
+                        <button class="workshop"></button> 
+                        <button class="downloads"></button> 
+                    </h3>
+
+                    <div class="videoContainer">
+                        <p class="videoTitle">Workshop 3: Beweging</p>
+                        <video class="video-js" id="video4" data-setup='{"fluid": true}' mute>
+                            <source src="/Video/vid.mp4" type="video/mp4">
+                            <source src="movie.ogg" type="video/ogg">
+                        </video>
+                        <button class="toggle"></button>
+                        <button class="rewind"></button>
+                        <button class="done"></button>
+                    </div>
+                </div>
+
+                <div class="container2">
+                    <h3>
+                        <button class="arrow"></button> 
+                        Workshop 4: Variabelen gebruiken
+                        <button class="done2"></button>
+                        <button class="workshop"></button> 
+                    </h3>
+
+                    <div class="videoContainer">
+                        <p class="videoTitle">Workshop 4: Variabelen gebruiken</p>
+                        <video class="video-js" id="video5" data-setup='{"fluid": true}' mute>
+                                <source src="/Video/vid.mp4" type="video/mp4">
+                                <source src="movie.ogg" type="video/ogg">
+                        </video>
+                        <button class="toggle"></button>
+                        <button class="rewind"></button>
+                        <button class="done"></button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dialog">
+                <p>Je hebt deze video helemaal bekeken!</p>
+            </div>
+       
+            <p id="support">Support</p>
+            <h2 class="supporttext">Kom je er niet uit?</h2>
+            <h2 class="supporttext">Wij helpen je graag verder</h2>
+
+            <div id="personcontainer">
+                <div class="person">
+                    <div class="profilepicture" id="one"></div>
+                    <div class="name">
+                            <p class="bold">Klaartje Klaassen</p>
+                            <p>Hoofd contactpersoon</p>
+                            <a href="#" class="email">Email</a>
+                    </div>
+                </div>
+            
+                <div class="person">
+                    <div class="profilepicture" id="two"></div>
+                    <div class="name">
+                        <p class="bold">Klaartje Klaassen</p>
+                        <p>Hoofd contactpersoon</p>
+                        <a href="#" class="email">Email</a>
+                    </div>
+                </div>
+            
+                <div class="person">
+                    <div class="profilepicture" id="three"></div>
+                    <div class="name">
+                        <p class="bold">Klaartje Klaassen</p>
+                        <p>Hoofd contactpersoon</p>
+                        <a href="#" class="email">Email</a>
+                    </div>
+                </div>
+            
+                <div class="person">
+                    <div class="profilepicture" id="four"></div>
+                    <div class="name">
+                        <p class="bold">Klaartje Klaassen</p>
+                        <p>Hoofd contactpersoon</p>
+                        <a href="#" class="email">Email</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
+        <div id="pinkhero">
+            <div id="program">
+                <h2>Klaar voor de</h2>
+                <h2>volgende uitdaging?</h2>
+                <p>In ons expertprogramma vind je lessen voor gevorderden</p>
+                <a href="#" id="bluebutton">Kom maar op</a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Switch theme</p>
+        <a href="#" id="switch" class="active"></a>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
