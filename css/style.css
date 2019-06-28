@@ -75,7 +75,7 @@ main {
 #hero {
     width: 100vw;
     min-height: 50vh;
-    background-image: url(img/hero.svg);
+    background-image: url(../img/hero.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -158,7 +158,7 @@ main {
 .arrow {
     width: 40px;
     height: 40px;
-    background-image: url(img/arrow1.svg);
+    background-image: url(../img/arrow1.svg);
     background-size: cover;
     border: none;
     position: absolute;
@@ -167,14 +167,14 @@ main {
 }
 
 .ui-state-active .arrow {
-    background-image: url(img/arrow2.svg);
+    background-image: url(../img/arrow2.svg);
     top: 15px;
 }
 
 #roodintro {
     width: 115px;
     height: 40px;
-    background-image: url(img/intro.svg);
+    background-image: url(../img/intro.svg);
     background-size: auto;
     background-repeat: no-repeat;
     border: none;
@@ -186,7 +186,7 @@ main {
 .workshop {
     width: 146px;
     height: 40px;
-    background-image: url(img/workshop.svg);
+    background-image: url(../img/workshop.svg);
     background-size: auto;
     background-repeat: no-repeat;
     border: none;
@@ -198,7 +198,7 @@ main {
 .downloads {
     width: 195px;
     height: 40px;
-    background-image: url(img/downloads.svg);
+    background-image: url(../img/downloads.svg);
     background-size: auto;
     background-repeat: no-repeat;
     border: none;
@@ -222,7 +222,7 @@ main {
 .toggle {
     width: 100px;
     height: 100px;
-    background-image: url(img/play.svg);
+    background-image: url(../img/play.svg);
     background-size: cover;
     border: none;
     padding: 0;
@@ -236,14 +236,14 @@ main {
 .pause {
     width: 100px;
     height: 100px;
-    background-image: url(img/pause.svg);
+    background-image: url(../img/pause.svg);
     background-size: contain;
 }
 
 .rewind {
     width: 70px;
     height: 70px;
-    background-image: url(img/rewind.svg);
+    background-image: url(../img/rewind.svg);
     background-size: cover;
     border: none;
     padding: 0;
@@ -257,7 +257,7 @@ main {
 .done {
     width: 70px;
     height: 70px;
-    background-image: url(img/done2.svg);
+    background-image: url(../img/done2.svg);
     background-size: cover;
     border: none;
     padding: 0;
@@ -287,7 +287,7 @@ main {
 .done2 {
     width: 115px;
     height: 40px;
-    background-image: url(img/done.svg);
+    background-image: url(../img/done.svg);
     background-size: auto;
     background-repeat: no-repeat;
     border: none;
@@ -332,12 +332,12 @@ main {
 .ui-dialog-titlebar-close {
     border-style: none;
     border-radius: 0;
-    background-image: url(img/close2.svg);
+    background-image: url(../img/close2.svg);
     background-size: cover;
 }
 
 .ui-dialog-titlebar-close:hover {
-    background-image: url(img/close.svg);
+    background-image: url(../img/close.svg);
     background-size: cover;
     border-style: none;
 }
@@ -379,15 +379,15 @@ main {
 }
 
 #one {
-    background-image: url(img/profile1.jpg);
+    background-image: url(../img/profile1.jpg);
 }
 
 #two {
-    background-image: url(img/profile2.jpg);
+    background-image: url(../img/profile2.jpg);
 }
 
 #three {
-    background-image: url(img/profile3.jpg);
+    background-image: url(../img/profile3.jpg);
 }
 
 #four {
@@ -432,7 +432,7 @@ main {
 #pinkhero {
     width: 100vw;
     height: 500px;
-    background-image: url(img/pinkhero.png);
+    background-image: url(../img/pinkhero.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -495,7 +495,7 @@ footer p {
 #switch {
     width: 80px;
     height: 41px;
-    background-image: url(img/switch1.svg);
+    background-image: url(../img/switch1.svg);
     background-size: cover;
     position: absolute;
     margin-top: 25px;
@@ -517,7 +517,7 @@ button {
 }
 
 .darkmode #logo {
-    background-image: url(img/logo2.svg);
+    background-image: url(../img/logo2.svg);
 }
 
 .darkmode #nav a {
@@ -533,7 +533,7 @@ button {
 }
 
 .darkmode .arrow {
-    background-image: url(img/arrow3.svg);
+    background-image: url(../img/arrow3.svg);
 }
 .darkmode .ui-state-default {
     background: #000000;
@@ -545,7 +545,7 @@ button {
 }
 
 .darkmode .ui-state-active .arrow {
-    background-image: url(img/arrow2.svg);
+    background-image: url(../img/arrow2.svg);
 }
 
 .darkmode .ui-accordion-content {
@@ -571,7 +571,7 @@ button {
 }
 
 .darkmode #switch {
-    background-image: url(img/switch2.svg);
+    background-image: url(../img/switch2.svg);
 }
 
 /* mediaquaries */
