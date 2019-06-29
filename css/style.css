@@ -299,6 +299,10 @@ main {
 
 /* modal */
 
+#dialog {
+    display: none;
+}
+
 .ui-dialog {
     min-width: 500px;
     min-height: 300px;
